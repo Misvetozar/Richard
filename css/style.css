@@ -4,9 +4,10 @@
 }
 
 body {
-    margin: auto;
-    max-width: 1440px;
     font-family: 'Gothic A1', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+    overflow-x: hidden;
 }
 .first_page {
     margin: auto;
@@ -90,6 +91,7 @@ header {
     line-height: 80px;
     color: #FFFFFF;
 }
+
 .main_text2 {
     font-weight: 400;
     font-size: 30px;
@@ -111,7 +113,6 @@ header {
 .second_page {
 
     margin: auto;
-    max-width: 1440px;
     background-color: #1B1B1B;
 }
 .sp_text {
@@ -146,6 +147,12 @@ header {
     max-width: 1440px;
 }
 .thp_1 {
+    max-width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.thp_2 {
     max-width: 70%;
     display: flex;
     margin: auto;
@@ -187,7 +194,7 @@ header {
 .icons {
     display: flex;
     justify-content: space-between;
-    max-width: 90%;
+    max-width: 1236px;
     padding-top: 159px;
     margin: auto;
 }
@@ -209,7 +216,7 @@ header {
     text-align: center;
 }
 .units {
-    max-width: 80%;
+    max-width: 1100px;
     height: 134px;
     display: flex;
     justify-content: space-between;
@@ -231,7 +238,7 @@ header {
 }
 .food_content {
     display: flex;
-    max-width: 70%;
+    max-width: 931px;
     margin: auto;
     padding-top: 160px;
 }
@@ -299,7 +306,10 @@ header {
 }
 .iphones {
     padding-top: 118px;
-    margin-bottom: -10px;
+    padding-bottom: -10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .six_page {
     margin: auto;

@@ -1,0 +1,442 @@
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: 'Gothic A1', sans-serif;
+        max-width: 1440px;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .logo {
+        margin-top: 29px;
+        margin-left: 20px;
+    }
+
+    .ipad {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 576px;
+    }
+    .main_text2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        color: #FFFFFF;
+        width: 500px;
+        position: absolute;
+    }
+    .phone {
+            display: none;
+    }
+    .button1 {
+        width: 170px;
+        height: 66px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+    .arrow {
+        position: absolute;
+        right: 50%;
+        top: 530px;
+    }
+    .thp_text {
+        margin-top: 168px;
+    }
+    .thp_1 {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .iphone1 {
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .thp_2 {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .units{
+        max-width: 90%;
+    }
+
+    .unit {
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 90px;
+        color: #333333;
+    }
+    .unit1 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    .food_content {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 160px;
+    }
+    .brands {
+        max-width: 90%;
+    }
+    .iphones {
+        max-width: 100%;
+    }
+    .about {
+        padding-top: 29px;
+        padding-bottom: 69px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .logo {
+        margin-top: 29px;
+        margin-left: 20px;
+        max-width: 70px;
+    }
+    .menu_items {
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+        font-size: 13px;
+    }
+    .main_text1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 80px;
+        color: #FFFFFF;
+    }
+    .main_text2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 307px;
+
+    }
+    .ipad {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 360px;
+    }
+
+    .phone {
+        display: none;
+    }
+    .button1 {
+        width: 130px;
+        height: 46px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+    .arrow {
+        position: absolute;
+        right: 50%;
+        top: 520px;
+    }
+    .thp_text {
+        margin-top: 168px;
+    }
+    .thp_1 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .iphone1 {
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .thp_text {
+        margin-top: 68px;
+        padding-left: 28px;
+        padding-right: 20px;
+    }
+    .thp_text1 {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+        padding-bottom: 30px;
+    }
+    .thp_2 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .units{
+        max-width: 90%;
+    }
+
+    .unit {
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 90px;
+        color: #333333;
+    }
+    .unit1 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    .food_content {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 160px;
+    }
+    .food_text {
+        padding-left: 28px;
+        padding-right: 2px;
+    }
+    .coma {
+        margin-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .brands {
+        margin-top: 37px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .iphones {
+        max-width: 100%;
+    }
+    .about {
+        padding-top: 29px;
+        padding-bottom: 69px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .mail_input {
+        width: 211px;
+        height: 50px;
+        border: none;
+        box-shadow: 0 0 0 #FC0A7E;
+        border-radius: 3px 0 0 3px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 20px;
+
+    }
+    .mail_submit {
+        width: 104px;
+        height: 50px;
+        left: 66.99%;
+        right: -0.11%;
+        top: 0.02px;
+        border: none;
+        background: #FC0A7E;
+        border-radius: 0 3px 3px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about_items {
+        font-weight: 400;
+        font-size: 8px;
+
+        text-decoration: none;
+
+        color: #6B6B6B;
+        padding-right: 30px;
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+    }
+    footer {
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo {
+        margin-top: 29px;
+        margin-left: 20px;
+        max-width: 50px;
+    }
+    .menu_items {
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+        font-size: 11px;
+    }
+    .main_text1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 80px;
+        color: #FFFFFF;
+    }
+    .main_text2 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 307px;
+
+    }
+    .ipad {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    .phone {
+        display: none;
+    }
+    .button1 {
+        width: 130px;
+        height: 46px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+    .arrow {
+        position: absolute;
+        right: 50%;
+        top: 520px;
+    }
+    .thp_text {
+        margin-top: 168px;
+    }
+    .thp_1 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .iphone1 {
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .thp_text {
+        margin-top: 68px;
+        padding-left: 28px;
+        padding-right: 20px;
+    }
+    .thp_text1 {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+        padding-bottom: 30px;
+    }
+    .thp_2 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .units{
+        max-width: 90%;
+    }
+
+    .unit {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 90px;
+        color: #333333;
+    }
+    .unit1 {
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    .food_content {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 160px;
+    }
+    .button2 {
+        width: 140px;
+        height: 46px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        position: relative;
+    }
+    .button3 {
+        width: 140px;
+        height: 46px;
+        color: #FFFFFF;
+        background: none;
+        border: 1px solid #B04BB3;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .mail_input {
+        width: 161px;
+        height: 50px;
+        border: none;
+        box-shadow: 0 0 0 #FC0A7E;
+        border-radius: 3px 0 0 3px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 20px;
+
+    }
+    .mail_submit {
+        width: 84px;
+        height: 50px;
+        left: 66.99%;
+        right: -0.11%;
+        top: 0.02px;
+        border: none;
+        background: #FC0A7E;
+        border-radius: 0 3px 3px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about_items {
+        font-weight: 400;
+        font-size: 8px;
+
+        text-decoration: none;
+
+        color: #6B6B6B;
+        padding-right: 10px;
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+        margin-left: 10px;
+    }
+    footer {
+        margin-top: 26px;
+    }
+
+}
