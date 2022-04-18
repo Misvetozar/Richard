@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
     body {
         font-family: 'Gothic A1', sans-serif;
-        max-width: 1440px;
+
         margin: auto;
         overflow-x: hidden;
     }
